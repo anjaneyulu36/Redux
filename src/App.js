@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import Counter from './counter';
+import Todolist from './todolist';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div my className='mybox'>
+     <h1>Welcome to React js Edupoly</h1>
+    <Counter></Counter>
+    <Todolist></Todolist>
     </div>
   );
 }
