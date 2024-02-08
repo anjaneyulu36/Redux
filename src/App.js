@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CountryDetails from './CountryDetails';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <CountryDetails></CountryDetails>
     </div>
   );
 }
 
 export default App;
-,
-0l
