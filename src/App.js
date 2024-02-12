@@ -1,25 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import StudentForm from './StudentForm';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="border border-5 border-danger p-2 m-2" style={{color:'blue'}}>
+     <h1>Welcome to Edupoly</h1>
+     <StudentForm></StudentForm>
     </div>
   );
 }
 
 export default App;
+ 
